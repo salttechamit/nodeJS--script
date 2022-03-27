@@ -18,3 +18,4 @@ sudo rm /etc/nginx/sites-available/default
 sudo cp /home/ubuntu/nodeJS--script/default /etc/nginx/sites-available/default  #update the username
 sudo nginx -t
 sudo service nginx restart
+sudo ifconfig -a
