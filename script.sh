@@ -7,7 +7,7 @@ sudo apt -y install nodejs
 sudo mkdir myapp
 sudo cd myapp
 npm install express --save
-sudo cp -r /home/ubuntu/jenkins/workspace/new-job /home/ubuntu/jenkins/workspace/new-job/myapp/   #updaten the username
+sudo cp -r /home/ubuntu/jenkins/workspace/new-job/ /home/ubuntu/jenkins/workspace/new-job/myapp/   #updaten the username
 
 sudo npm install -g pm2
 sudo pm2 start app.js
